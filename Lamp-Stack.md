@@ -168,7 +168,9 @@ entered
 <?php
 phpinfo();
 I finally refreshed the webserver page and lunched
+
 ![image](https://user-images.githubusercontent.com/55473846/138334739-5519e416-f3ac-4781-a154-e7d8e1c9ed3a.png)
+
 Finally, as the above page contains sensitive information, I ran the below command to remove the sensitive file
 sudo rm /var/www/projectlamp/index.php
 
