@@ -30,5 +30,12 @@ INSTALLED MYSQL
 Now that my webserver Apache is working, I will now install the database backend engine MySQl
 sudo apt install mysql-server
 
+![image](https://user-images.githubusercontent.com/55473846/138330547-3dc39ce7-bafd-4880-8bda-e7586bcb25f7.png)
+
+To remove some insecure setting issues and to lock down access to the database I ran this command
+
+sudo mysql_secure_installation
+
+
 
 
