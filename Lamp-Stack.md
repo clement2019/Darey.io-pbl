@@ -1,6 +1,4 @@
-      PROJECT 1
-WEB STACK IMPLEMENTATION   (LAMP STACK) IN AWS
-
+      PROJECT1 : WEB STACK IMPLEMENTATION   (LAMP STACK) IN AWS
 I started this project by first creating a lamp-stack web server in Aws in my availability zone eu-west 2a, configured the security group with the necessary configuration settings 
 SSH on port:22 and HTTP on port :80 thereby creating the necessity FIREWALL.
  I created my private key to be able to connect to my EC2 instance and with the help of the key I was able to use (SSH client) connection to connect to my instance using Gitbash
@@ -161,28 +159,17 @@ sudo systemctl reload apache2
 ![image](https://user-images.githubusercontent.com/55473846/138334393-7dbbd6d4-d169-4dba-a202-c1a8dd036b84.png)
 
 I resolved the error by running
-
 Sudo apachectl -t
-
 Sudo systemctl status apache2.service
-
 Located the error and removed it
-
 finally ran and created a file called index.php inside this root folder below
-
 vim /var/www/projectlamp/index.php
-
 entered
-
 <?php
 phpinfo();
-
 I finally refreshed the webserver page and lunched
-
 ![image](https://user-images.githubusercontent.com/55473846/138334739-5519e416-f3ac-4781-a154-e7d8e1c9ed3a.png)
-
 Finally, as the above page contains sensitive information, I ran the below command to remove the sensitive file
-
 sudo rm /var/www/projectlamp/index.php
 
 
