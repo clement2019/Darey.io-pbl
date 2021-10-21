@@ -24,3 +24,11 @@ To check if Apache is working on any browser public ip address of my ec2 instanc
 
 http://ec2-18-134-155-184.eu-west-2.compute.amazonaws.com/
 
+![image](https://user-images.githubusercontent.com/55473846/138330308-1a405978-f99a-4b82-8d65-2ef91b3093a3.png)
+
+INSTALLED MYSQL
+Now that my webserver Apache is working, I will now install the database backend engine MySQl
+sudo apt install mysql-server
+
+
+
