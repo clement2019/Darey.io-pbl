@@ -1,4 +1,6 @@
-### PROJECT 1 WEB STACK IMPLEMENTATION   (LAMP STACK) IN AWS
+      PROJECT 1
+WEB STACK IMPLEMENTATION   (LAMP STACK) IN AWS
+
 I started this project by first creating a lamp-stack web server in Aws in my availability zone eu-west 2a, configured the security group with the necessary configuration settings 
 SSH on port:22 and HTTP on port :80 thereby creating the necessity FIREWALL.
  I created my private key to be able to connect to my EC2 instance and with the help of the key I was able to use (SSH client) connection to connect to my instance using Gitbash
@@ -27,6 +29,7 @@ http://ec2-18-134-155-184.eu-west-2.compute.amazonaws.com/
 ![image](https://user-images.githubusercontent.com/55473846/138330308-1a405978-f99a-4b82-8d65-2ef91b3093a3.png)
 
 INSTALLED MYSQL
+
 Now that my webserver Apache is working, I will now install the database backend engine MySQl
 sudo apt install mysql-server
 
@@ -118,7 +121,7 @@ sudo systemctl reload apache2
 
 Now although the website is ready, but I still need to make website root have some content to serve. web root /var/www/projectlamp is still empty
 
- Meaning ran this command to affect that
+ Meaning i ran this command to affect that
 
 sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/project lamp/index.html
 
@@ -126,7 +129,7 @@ After running the above command above and click on the public ip address of my e
 
  my webserver Apache now looks like this below
  
-###ENABLING PHP ON MY WEBSITE
+ENABLING PHP ON MY WEBSITE
 
 ![image](https://user-images.githubusercontent.com/55473846/138333838-4a4dd7bd-7958-4226-a587-f2c85e9c2eae.png)
 
