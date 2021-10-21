@@ -48,5 +48,17 @@ To test if can logon to the console I ran the command below
 
 sudo mysql
 
+![image](https://user-images.githubusercontent.com/55473846/138332030-002b061c-1a9e-463f-9fc8-23f8641dfbd9.png)
+
+INSTALLING PHP
+
+The MySQL server is now installed to serve as my database backend and its secured. i already installed Apache to serve my web content, next, I will install PHP to process my code display
+
+I ran the code below
+
+sudo apt install php libapache2-mod-php php-mysql
+
+
+
 
 
