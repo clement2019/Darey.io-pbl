@@ -42,4 +42,11 @@ To remove some insecure setting issues and to lock down access to the database I
 
 sudo mysql_secure_installation
 
+![image](https://user-images.githubusercontent.com/55473846/138331843-d42b2782-3b86-42ed-aac4-fec4233e6b27.png)
+
+To test if can logon to the console I ran the command below
+
+sudo mysql
+
+
 
